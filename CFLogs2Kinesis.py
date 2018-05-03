@@ -2,7 +2,6 @@ import gzip
 import boto3
 import json
 
-cwlogs = boto3.client('logs',region_name='us-east-1')
 kinesis = boto3.client('kinesis',region_name='us-east-1')
 s3 = boto3.resource('s3')
 
